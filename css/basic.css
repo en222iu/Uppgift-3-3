@@ -22,9 +22,14 @@ a {
 }
 
 #container {
+    margin: 0 auto;
+    width: 600px;
 }
 
 #topbar {
+    text-align: right;
+    background: url("pics/coffey.jpg");
+    height: 200px;
 }
 
 #menu {
@@ -37,9 +42,13 @@ li.active {
 }
 
 #maincontent {
+    width: 300px;
+    float: left
 }
 
 #subcontent {
+    float: right;
+    width: 200px;
 }
 
 #subcontent h1 {
@@ -49,4 +58,5 @@ li.active {
 }
 
 #bottomcontent {
+    clear: both;
 }
