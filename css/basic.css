@@ -4,6 +4,7 @@ body {
     background: #FFF;
     font-family: verdana;
     font-size: 13px;
+    color: #797066;
 }
 
 h1, h2 {
@@ -106,6 +107,7 @@ a, a:visited {
 }
 
 #subcontent p {
+    font-size: 10px;
 }
 
 #bottomcontent {
