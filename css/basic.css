@@ -39,8 +39,12 @@ a {
 
 #topbar {
     text-align: right;
-    background: url("pics/coffey.jpg");
-    height: 200px;
+    background: #51473D url("pics/coffey.jpg") no-repeat bottom;
+    height: 215px;
+    color: #EAE7D2;
+    font-size: 11px;
+    font-style: italic;
+    padding: 2px;
 }
 
 #menu {
