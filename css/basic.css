@@ -112,4 +112,6 @@ a, a:visited {
 
 #bottomcontent {
     clear: both;
+    font-style: italic;
+    font-size: 10px;
 }
