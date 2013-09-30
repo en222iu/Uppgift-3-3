@@ -9,6 +9,8 @@ body {
 h1, h2 {
     font-family: "Times New Roman";
     font-weight: normal;
+    margin: 0;
+    padding: 10px 0 10px 0;
 }
 
 h1 {
@@ -23,15 +25,6 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-ul li {
-}
-
-p {
-}
-
-a {
 }
 
 #container {
@@ -87,11 +80,13 @@ a {
 }
 
 #content {
+    background: #EAE7D2;
+    padding: 10px;
 }
 
 #maincontent {
     width: 300px;
-    float: left
+    float: left;
 }
 
 #subcontent {
