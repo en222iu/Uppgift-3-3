@@ -51,15 +51,39 @@ a {
 }
 
 #menu {
+    background: #51473D;
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#menu a {
+    color: #EAE7D2;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 #menu ul {
+    margin-top: 5px;
 }
 
 #menu ul li {
+    display: inline-block;
+    background: #797066;
+    padding: 10px 20px;
+    margin-right: -4px;
 }
 
-li.active {
+#menu ul li:hover {
+    background: #9C9084;
+}
+
+#menu ul li.active {
+    background: #EAE7D2;
+}
+
+#menu ul li.active a {
+    color: #797066;
 }
 
 #content {
