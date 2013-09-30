@@ -15,10 +15,12 @@ h1, h2 {
 
 h1 {
     font-size: 2.5em; 
+    color: #797066;
 }
 
 h2 {
     font-size: 1.2em;
+    color: #51473D;
 }
 
 ul {
@@ -96,6 +98,7 @@ ul {
 
 #subcontent h1 {
     font-size: 1.4em;
+    color: #51473D;
 }
 
 #subcontent p {
